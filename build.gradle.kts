@@ -13,9 +13,9 @@ plugins {
  * Try:
  * 1. Run `./gradlew shadowJar`. You should see `2 actionable tasks: 2 executed`.
  * 2. Re-run. You should see `2 actionable tasks: 2 up-to-date`.
- * 3. Uncomment line 24.
+ * 3. Uncomment the first line in the ShadowJar task configuration block.
  * 4. Re-run. You'll see the log line, and (incorrectly) `2 actionable tasks: 2 up-to-date`.
- * 5. Re-comment line 24, and uncomment line 25.
+ * 5. Re-comment the first line in the ShadowJar task configuration block, and uncomment the second line.
  * 6. Re-run. As before, you'll see the log line and (incorrectly) `2 actionable tasks: 2 up-to-date`.
  *
  * Reset with `./gradlew clean`.
